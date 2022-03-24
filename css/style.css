@@ -6,14 +6,14 @@
     font-weight: 500px;
 }
 
+.content .side-left{
+    margin-top: -10em;
+}
+
 .head .img-fluid{
     width: 100%;
     height: 50vh;
     object-fit: cover;
-}
-
-.content .profile{
-    border-bottom: solid 1px rgba(0, 0, 0, 0.12);
 }
 
 .content .img-circle{
@@ -34,10 +34,6 @@
     padding-left: 0px;
 }
 
-.education {
-    border-top: solid 1px rgba(0, 0, 0, 0.12);
-}
-
 .education ul{
     list-style: none;
     padding-left: 0px;
@@ -49,4 +45,23 @@
 
 .content .nav-tabs .nav-link {
     color: #00000096;
+}
+
+.progress{
+    height: 100%;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+    animation: 1.5s linear infinite spinner-border;
+}
+
+.project .card i{
+    font-size: 3em;
+}
+
+.project .card a{
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.596);
 }
